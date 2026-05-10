@@ -22,9 +22,9 @@ RAW_BASE = (
     f"https://raw.githubusercontent.com/{GITHUB_OWNER}/{GITHUB_REPO}/{GITHUB_BRANCH}"
 )
 
-# This file lives at: <plugin_root>/skills/docaviv2026/scripts/update.py
-# parents[0] = scripts/, [1] = docaviv2026/, [2] = skills/, [3] = plugin root
-PLUGIN_ROOT = Path(__file__).resolve().parents[3]
+# This file lives at: <plugin_root>/scripts/update.py
+# parents[0] = scripts/, [1] = plugin root
+PLUGIN_ROOT = Path(__file__).resolve().parents[1]
 
 
 def fetch(path: str) -> bytes:
