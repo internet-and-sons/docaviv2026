@@ -1,0 +1,13 @@
+{
+  "version": "0.1.0",
+  "files": [
+    "VERSION",
+    ".docaviv-manifest.json",
+    "commands/start.md",
+    "commands/update.md",
+    "skills/docaviv2026/SKILL.md",
+    "skills/docaviv2026/data/films.json",
+    "skills/docaviv2026/scripts/plan.py",
+    "skills/docaviv2026/scripts/update.py"
+  ]
+}
