@@ -1,5 +1,5 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.2",
   "files": [
     "VERSION",
     ".docaviv-manifest.json",
@@ -7,9 +7,9 @@
     ".claude-plugin/marketplace.json",
     "commands/start.md",
     "commands/update.md",
+    "scripts/update.py",
     "skills/docaviv2026/SKILL.md",
     "skills/docaviv2026/data/films.json",
-    "skills/docaviv2026/scripts/plan.py",
-    "skills/docaviv2026/scripts/update.py"
+    "skills/docaviv2026/scripts/plan.py"
   ]
 }
