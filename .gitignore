@@ -1,0 +1,7 @@
+tools/
+node_modules/
+.DS_Store
+*.pyc
+__pycache__/
+TODO.md
+LEARNINGS.md
