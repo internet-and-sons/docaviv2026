@@ -26,7 +26,9 @@ Read `CLAUDE.md` first for the architectural picture and the safety rules.
 1. Update `VERSION` (the semver string)
 2. Update `"version"` in `.docaviv-manifest.json`
 3. Update `"version"` in `.claude-plugin/plugin.json`
-4. These three files must be in the same commit
+4. Update `"version"` in `.claude-plugin/marketplace.json` (the plugin entry)
+5. Rebuild the standalone skill: `python3 scripts/build-skill.py` (regenerates `docaviv2026.skill` at the repo root for Claude.ai users)
+6. All five must be in the same commit
 
 ## What NOT to change without coordination
 

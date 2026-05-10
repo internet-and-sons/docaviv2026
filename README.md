@@ -19,19 +19,34 @@ Ask it to recommend films based on your taste, build a conflict-free day plan, f
 
 ## Getting started
 
+Pick your installation flavor:
+
+### Claude Code (CLI) — full plugin with slash commands
+
 1. Install Python 3.8+ (already on Mac/Linux; download from python.org on Windows)
 2. Clone into your Claude Code plugins directory:
    ```bash
    git clone https://github.com/internet-and-sons/docaviv2026 ~/.claude/plugins/docaviv2026
    ```
 3. Restart Claude Code.
+4. Use `/docaviv:start` to begin, `/docaviv:update` to refresh.
+
+### Claude Desktop (Customize → Add marketplace)
+
+Paste `https://github.com/internet-and-sons/docaviv2026` into the *Add marketplace* dialog. Sync, then install the `docaviv` plugin.
+
+### Claude.ai web — standalone skill upload
+
+Download [`docaviv2026.skill`](https://github.com/internet-and-sons/docaviv2026/raw/main/docaviv2026.skill) (the file at the root of this repo), then upload it via *Customize → Skills → Upload skill*. No slash commands, but the planner triggers automatically when you mention Docaviv or ask about Tel Aviv documentary screenings.
 
 ## Usage
 
-- `/docaviv:start` — confirms festival data is loaded, checks for updates, asks how to help
-- `/docaviv:update` — downloads the latest version of all plugin files from GitHub
+Just ask in Hebrew or English — the skill triggers on context. Examples:
 
-Or just ask in Hebrew (or English) about the festival and the skill triggers automatically.
+- *"מה כדאי לי לראות בדוקאביב?"*
+- *"תכנן לי 3 סרטים ב-30 במאי בלי חפיפות"*
+- *"אילו סרטים מוקרנים פעם אחת בלבד?"*
+- *"מצא לי זיווג גב-אל-גב ב-2 ביוני"*
 
 ## Help
 
