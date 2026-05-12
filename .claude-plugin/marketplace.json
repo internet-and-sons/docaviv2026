@@ -13,7 +13,7 @@
         "source": "url",
         "url": "https://github.com/internet-and-sons/docaviv2026.git"
       },
-      "version": "0.3.0",
+      "version": "0.3.1",
       "description": "מתכנן סרטים אישי לפסטיבל דוקאביב 2026 — קבצי markdown מובנים בתוך הסקיל, grep+cat לחיפושים מהירים. בחירת סרטים לפי טעם, תכנון יום עם בדיקת חפיפות, זיווגים גב-אל-גב, סרטי הקרנה יחידה. עברית קודם, אנגלית נתמכת.",
       "author": {
         "name": "Internet & Sons"
