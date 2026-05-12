@@ -4,7 +4,7 @@
     "name": "Internet & Sons"
   },
   "metadata": {
-    "description": "Claude Code marketplace for the docaviv2026 plugin — explore and schedule films at the Docaviv 2026 documentary festival (Tel Aviv, 28 May – 6 June 2026)."
+    "description": "Claude Code marketplace for the docaviv2026 plugin — fan-made planner for the Docaviv 2026 documentary festival (Tel Aviv, 28 May – 6 June 2026)."
   },
   "plugins": [
     {
@@ -13,12 +13,21 @@
         "source": "url",
         "url": "https://github.com/internet-and-sons/docaviv2026.git"
       },
-      "version": "0.1.4",
-      "description": "מתכנן סרטים אישי לפסטיבל דוקאביב 2026. Explore films by taste, build conflict-free day plans, find back-to-back pairings, surface single-screening films before they disappear. Hebrew-first, English supported. Slash commands: /docaviv:start, /docaviv:update.",
-      "author": { "name": "Internet & Sons" },
+      "version": "0.3.0",
+      "description": "מתכנן סרטים אישי לפסטיבל דוקאביב 2026 — קבצי markdown מובנים בתוך הסקיל, grep+cat לחיפושים מהירים. בחירת סרטים לפי טעם, תכנון יום עם בדיקת חפיפות, זיווגים גב-אל-גב, סרטי הקרנה יחידה. עברית קודם, אנגלית נתמכת.",
+      "author": {
+        "name": "Internet & Sons"
+      },
       "license": "MIT",
       "homepage": "https://github.com/internet-and-sons/docaviv2026",
-      "keywords": ["docaviv", "festival", "films", "hebrew", "tel-aviv", "documentary"]
+      "keywords": [
+        "docaviv",
+        "festival",
+        "films",
+        "hebrew",
+        "tel-aviv",
+        "documentary"
+      ]
     }
   ]
 }
